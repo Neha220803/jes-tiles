@@ -47,7 +47,7 @@ h1 {
     margin-top: 60px;
     padding: 0;
     color: #D6CCCC;
-    position:relative;
+    position: relative;
     width: 1140px;
     text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     top: 40%;
@@ -162,7 +162,7 @@ input[type=submit]:hover {
 
 
 section {
-   
+
     padding: 80px 0;
 }
 
@@ -199,7 +199,7 @@ h5 {
     line-height: 179.623%;
     display: flex;
     flex-direction: column;
-    
+
     font-family: Langar;
     margin-left: auto;
     margin-right: auto;
@@ -213,10 +213,11 @@ h5 {
 
 .section-aboutus h2 {
     color: #0E2954;
-    
+
 }
+
 .section-aboutus h5 {
-    
+
     width: 40%;
 }
 
@@ -242,7 +243,7 @@ h5 {
     background-color: #0E2954;
     padding: 30px;
     margin: 0;
-  
+
 }
 
 .section-gallery h2 {
@@ -304,7 +305,7 @@ h5 {
 
 .section-application {
     background-color: #478790;
-   
+
 }
 
 .section-application h2 {
@@ -329,7 +330,7 @@ h6 {
 
 .section-contact_us {
     background-color: #0E2954;
-    height: 100vh;
+    padding: 20px;
     font-size: 25px;
 }
 
@@ -358,28 +359,25 @@ h6 {
     vertical-align: bottom;
     color: #478790;
 }
+
 .section-contact_us p {
     color: #FFF;
 }
 
-.container1 {
-    display: flex;
-    
-  }
-  
-  .column {
+
+.column {
     flex: 1;
     padding: 10px;
     text-align: center;
-  }
-  
+}
 
-  .navbar {
-	
-	font-weight: 600;
-	font-size: 0.875rem;
-	line-height: 0.5rem;
-	box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.1);
+
+.navbar {
+
+    font-weight: 600;
+    font-size: 0.875rem;
+    line-height: 0.5rem;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.1);
     color: #D6CCCC;
 }
 
@@ -389,57 +387,59 @@ h6 {
 }
 
 .navbar .logo-text {
-	color:#D6CCCC;
-	font-weight: 700;
-	font-size: 2rem;
-	line-height: 1rem;
-	text-decoration: none;
+    color: #D6CCCC;
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 1rem;
+    text-decoration: none;
 }
 
 .navbar .larger-devices {
-	display: none;
+    display: none;
 }
 
 .offcanvas-collapse {
-	position: fixed;
-	top: 1.25rem; /* adjusts the height between the top of the page and the offcanvas menu */
-	bottom: 0;
-	left: 100%;
-	width: 100%;
-	padding-right: 1rem;
-	padding-left: 1rem;
-	overflow-y: auto;
-	visibility: hidden;
-	background-color: #2a3e57;
-	transition: visibility .3s ease-in-out, -webkit-transform .3s ease-in-out;
-	transition: transform .3s ease-in-out, visibility .3s ease-in-out;
-	transition: transform .3s ease-in-out, visibility .3s ease-in-out, -webkit-transform .3s ease-in-out;
+    position: fixed;
+    top: 1.25rem;
+    /* adjusts the height between the top of the page and the offcanvas menu */
+    bottom: 0;
+    left: 100%;
+    width: 100%;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    overflow-y: auto;
+    visibility: hidden;
+    background-color: #2a3e57;
+    transition: visibility .3s ease-in-out, -webkit-transform .3s ease-in-out;
+    transition: transform .3s ease-in-out, visibility .3s ease-in-out;
+    transition: transform .3s ease-in-out, visibility .3s ease-in-out, -webkit-transform .3s ease-in-out;
 }
 
 .offcanvas-collapse.open {
-	visibility: visible;
-	-webkit-transform: translateX(-100%);
-	transform: translateX(-100%);
+    visibility: visible;
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%);
 }
 
 .navbar .nav-item .nav-link {
-	padding-top: 0.625rem;
-	padding-bottom: 0.625rem;
-	color:#D6CCCC;
-	text-decoration: none;
-	transition: all 0.2s ease;
+    padding-top: 0.625rem;
+    padding-bottom: 0.625rem;
+    color: #D6CCCC;
+    text-decoration: none;
+    transition: all 0.2s ease;
     font-size: large;
 }
 
 .navbar .nav-item.dropdown.show .nav-link,
 .navbar .nav-item .nav-link:hover,
 .navbar .nav-item .nav-link.active {
-	color: #e1293b;
+    color: rgb(214, 207, 207);
 }
 
 /* Dropdown Menu */
 .navbar .dropdown .dropdown-menu {
-	animation: fadeDropdown 0.2s; /* required for the fade animation */
+    animation: fadeDropdown 0.2s;
+    /* required for the fade animation */
 }
 
 @keyframes fadeDropdown {
@@ -449,117 +449,120 @@ h6 {
 
     100% {
         opacity: 1;
-	}
+    }
 }
 
 .navbar .dropdown-menu {
-	margin-top: 0.5rem;
-	margin-bottom: 0.5rem;
-	border: none;
-	background-color: #ffffff;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    border: none;
+    background-color: #ffffff;
 }
 
 .navbar .dropdown-item {
-	padding-top: 0.5rem;
-	padding-bottom: 0.5rem;
-	color: #D6CCCC;
-	font-weight: 600;
-	font-size: 0.875rem;
-	line-height: 0.875rem;
-	text-decoration: none;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    color: #D6CCCC;
+    font-weight: 600;
+    font-size: 0.875rem;
+    line-height: 0.875rem;
+    text-decoration: none;
 }
 
 .navbar .dropdown-item:hover {
-	background-color: #ffffff;
-	color: red;
+    background-color: #ffffff;
+    color: rgb(214, 207, 207);
 }
 
 .navbar .dropdown-divider {
-	width: 100%;
-	height: 1px;
-	margin: 0.5rem auto 0.5rem auto;
-	border: none;
-	background-color: #76858b;
+    width: 100%;
+    height: 1px;
+    margin: 0.5rem auto 0.5rem auto;
+    border: none;
+    background-color: #76858b;
 }
+
 /* end of dropdown menu */
 
 .navbar .navbar-toggler {
-	padding: 0;
-	border: none;
-	font-size: 1.25rem;
+    padding: 0;
+    border: none;
+    font-size: 1.25rem;
 }
 
 .navbar.top-nav-collapse {
-		padding-top: 0.5rem;
-		padding-bottom: 0.5rem;
-		background-color: #ffffff;
-		box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.1);
-	}
-	
-	.navbar .mobile-only {
-		display: none;
-	}
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    background-color: #ffffff;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.1);
+}
 
-	.navbar .larger-devices {
-		display: contents;
-		margin: 0.25rem 1.375rem;
-	}
+.navbar .mobile-only {
+    display: none;
+}
 
-	.navbar .navbar-nav {
-		margin-top: 0;
-		margin-bottom: 0;
-		align-items: right; 
-	}
-	
-	.navbar .nav-item .nav-link {
-		padding-right: 0.625rem;
-		padding-left: 0.625rem;
-	}
+.navbar .larger-devices {
+    display: contents;
+    margin: 0.25rem 1.375rem;
+}
 
-	.navbar .dropdown-menu {
-		margin-top: 0.25rem;
-		box-shadow: 0 5px 3px 1px rgba(0, 0, 0, 0.08);
-	}
+.navbar .navbar-nav {
+    margin-top: 0;
+    margin-bottom: 0;
+    align-items: right;
+}
 
-	.navbar .dropdown-divider {
-		width: 90%;
-	}
+.navbar .nav-item .nav-link {
+    padding-right: 0.625rem;
+    padding-left: 0.625rem;
+}
 
-	.offcanvas-collapse {
-		position: static;
-		top: auto;
-		bottom: auto;
-		left: auto;
-		width: auto;
-		padding-right: 0;
-		padding-left: 0;
-		background-color: transparent;
-		overflow-y: visible;
-		visibility: visible;
-	}
+.navbar .dropdown-menu {
+    margin-top: 0.25rem;
+    box-shadow: 0 5px 3px 1px rgba(0, 0, 0, 0.08);
+}
 
-	.offcanvas-collapse.open {
-		-webkit-transform: none;
-		transform: none;
-	}
-	/* end of navigation */
-	
+.navbar .dropdown-divider {
+    width: 90%;
+}
 
-	header {
-        margin-top: 0;
-        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('img/tiles.jpg');
-        height: 100vh;
-        background-size: cover;
-        background-position: center;
-        background-attachment: fixed;
-    }
-    .hero-text {
-        text-align: center;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        color:#D6CCCC;;
-        font-size: 50px;
-        }
-        
+.offcanvas-collapse {
+    position: static;
+    top: auto;
+    bottom: auto;
+    left: auto;
+    width: auto;
+    padding-right: 0;
+    padding-left: 0;
+    background-color: transparent;
+    overflow-y: visible;
+    visibility: visible;
+}
+
+.offcanvas-collapse.open {
+    -webkit-transform: none;
+    transform: none;
+}
+
+/* end of navigation */
+
+
+header {
+    margin-top: 0;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('img/tiles.jpg');
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #D6CCCC;
+    ;
+    font-size: 50px;
+}
